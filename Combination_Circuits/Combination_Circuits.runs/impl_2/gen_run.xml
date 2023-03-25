@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_2" LaunchPart="xc7a200tfbg676-2" LaunchTime="1679756129">
+  <File Type="PA-TCL" Name="FA_4B_RCA.tcl"/>
+  <File Type="BITSTR-BMM" Name="FA_4B_RCA_bd.bmm"/>
+  <File Type="REPORTS-TCL" Name="FA_4B_RCA_reports.tcl"/>
+  <File Type="OPT-DCP" Name="FA_4B_RCA_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="FA_4B_RCA.hwdef"/>
+  <File Type="PWROPT-DCP" Name="FA_4B_RCA_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="FA_4B_RCA_placed.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="FA_4B_RCA_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="FA_4B_RCA.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="FA_4B_RCA_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="FA_4B_RCA.bin"/>
+  <File Type="PHYSOPT-DCP" Name="FA_4B_RCA_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="FA_4B_RCA.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="FA_4B_RCA_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="FA_4B_RCA_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="FA_4B_RCA_routed_bb.dcp"/>
+  <File Type="BITSTR-LTX" Name="FA_4B_RCA.ltx"/>
+  <File Type="BITSTR-MMI" Name="FA_4B_RCA.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="FA_4B_RCA.sysdef"/>
+  <File Type="ROUTE-TIMING-PB" Name="FA_4B_RCA_timing_summary_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="FA_4B_RCA_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="FA_4B_RCA_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="FA_4B_RCA.bit"/>
+  <File Type="BITSTR-RBT" Name="FA_4B_RCA.rbt"/>
+  <File Type="BITSTR-NKY" Name="FA_4B_RCA.nky"/>
+  <File Type="BG-DRC" Name="FA_4B_RCA.drc"/>
+  <File Type="RDI-RDI" Name="FA_4B_RCA.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/FA_case.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FA_4B_RCA.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FA_Using_HA.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FA_gate.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FA_if.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/HA.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="FA_4B_RCA"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
