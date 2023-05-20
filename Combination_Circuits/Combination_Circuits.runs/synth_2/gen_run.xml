@@ -3,8 +3,6 @@
   <File Type="PA-TCL" Name="FA_4B_RCA.tcl"/>
   <File Type="REPORTS-TCL" Name="FA_4B_RCA_reports.tcl"/>
   <File Type="RDS-RDS" Name="FA_4B_RCA.vds"/>
-  <File Type="RDS-UTIL" Name="FA_4B_RCA_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="FA_4B_RCA_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="FA_4B_RCA.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>

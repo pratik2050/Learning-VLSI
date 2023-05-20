@@ -23,15 +23,18 @@
 module Demux1x4(
     input x,
     input s0,
-//    input s1,
-    output reg a,
-    output reg b
-//    output reg c,
-//    output reg d
+    input s1,
+    output reg y0,
+    output reg y1,
+    output reg y2,
+    output reg y3
     );
     
     always@(x or s0) begin
-        
+        y0 = x & (~s1) & (~s0);
+        y1 = x & (~s1) & (s0);
+        y2 = x & (s1) & (~s0);
+        y3 = x & s1 & s0;
     end
     
 endmodule

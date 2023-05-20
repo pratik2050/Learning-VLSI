@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a12ticsg325-1L" LaunchTime="1679499327">
   <File Type="BITSTR-BMM" Name="FA_4B_RCA_bd.bmm"/>
-  <File Type="ROUTE-PWR" Name="FA_4B_RCA_power_routed.rpt"/>
   <File Type="PA-TCL" Name="FA_4B_RCA.tcl"/>
   <File Type="OPT-DCP" Name="FA_4B_RCA_opt.dcp"/>
-  <File Type="ROUTE-PWR-SUM" Name="FA_4B_RCA_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="FA_4B_RCA_reports.tcl"/>
-  <File Type="OPT-DRC" Name="FA_4B_RCA_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="FA_4B_RCA.hwdef"/>
+  <File Type="BG-BGN" Name="FA_4B_RCA.bgn"/>
   <File Type="PWROPT-DCP" Name="FA_4B_RCA_pwropt.dcp"/>
   <File Type="PLACE-DCP" Name="FA_4B_RCA_placed.dcp"/>
-  <File Type="PLACE-IO" Name="FA_4B_RCA_io_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="FA_4B_RCA_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="FA_4B_RCA_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="FA_4B_RCA_control_sets_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="FA_4B_RCA_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BGN" Name="FA_4B_RCA.bgn"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="FA_4B_RCA_postplace_pwropt.dcp"/>
   <File Type="BG-BIN" Name="FA_4B_RCA.bin"/>
   <File Type="PHYSOPT-DCP" Name="FA_4B_RCA_physopt.dcp"/>
@@ -23,26 +16,11 @@
   <File Type="ROUTE-ERROR-DCP" Name="FA_4B_RCA_routed_error.dcp"/>
   <File Type="ROUTE-DCP" Name="FA_4B_RCA_routed.dcp"/>
   <File Type="ROUTE-BLACKBOX-DCP" Name="FA_4B_RCA_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="FA_4B_RCA_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="FA_4B_RCA_drc_routed.pb"/>
   <File Type="BITSTR-LTX" Name="FA_4B_RCA.ltx"/>
-  <File Type="ROUTE-DRC-RPX" Name="FA_4B_RCA_drc_routed.rpx"/>
   <File Type="BITSTR-MMI" Name="FA_4B_RCA.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="FA_4B_RCA_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="FA_4B_RCA_methodology_drc_routed.rpx"/>
   <File Type="BITSTR-SYSDEF" Name="FA_4B_RCA.sysdef"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="FA_4B_RCA_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="FA_4B_RCA_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="FA_4B_RCA_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="FA_4B_RCA_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="FA_4B_RCA_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="FA_4B_RCA_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="FA_4B_RCA_timing_summary_routed.rpx"/>
   <File Type="RDI-RDI" Name="FA_4B_RCA.vdi"/>
-  <File Type="ROUTE-CLK" Name="FA_4B_RCA_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="FA_4B_RCA_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="FA_4B_RCA_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="FA_4B_RCA_bus_skew_routed.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="FA_4B_RCA_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="FA_4B_RCA_postroute_physopt_bb.dcp"/>
   <File Type="BG-BIT" Name="FA_4B_RCA.bit"/>
